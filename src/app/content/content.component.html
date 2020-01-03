@@ -150,11 +150,6 @@
                 </li>
               </ul>
 
-              <mat-selection-list *ngIf="content.meta.hasActivities" style="outline: none;">
-                <h3 mat-subheader>An activity to share (will be included in the takeaway worksheet)!</h3>
-                <p style="padding: 10px 25px">{{content.meta.activityDescription}}</p>
-              </mat-selection-list>
-
             </mat-card-content>
             <mat-card-actions fxLayout="row" fxLayoutAlign="end baseline">
               <button mat-button (click)="slickModal.slickPrev()">Back</button>
