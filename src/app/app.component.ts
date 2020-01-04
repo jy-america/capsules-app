@@ -16,20 +16,20 @@ export class AppComponent {
     {
       name: 'Gallery',
       route: '/gallery'
-    },
-    {
-      name: 'Admin',
-      route: '/admin'
-    },
-    {
-      name: 'Contact',
-      route: '/contact'
-    },
-    {
-      name: 'Login',
-      route: '/oauth',
-      queryParams: { externalUrl: this.githubOauthUrl }
     }
+    // {
+    //   name: 'Admin',
+    //   route: '/admin'
+    // },
+    // {
+    //   name: 'Contact',
+    //   route: '/contact'
+    // },
+    // {
+    //   name: 'Login',
+    //   route: '/oauth',
+    //   queryParams: { externalUrl: this.githubOauthUrl }
+    // }
   ];
 
   constructor(
