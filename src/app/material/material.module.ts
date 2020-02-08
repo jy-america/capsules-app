@@ -14,15 +14,18 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   imports: [
     MatButtonModule, MatCheckboxModule, MatCardModule, MatInputModule, MatProgressBarModule, MatProgressSpinnerModule, MatStepperModule,
-    MatDividerModule, MatIconModule, MatTooltipModule, MatChipsModule, MatAutocompleteModule, MatButtonToggleModule, MatListModule
+    MatDividerModule, MatIconModule, MatTooltipModule, MatChipsModule, MatAutocompleteModule, MatButtonToggleModule, MatListModule,
+    MatExpansionModule
   ],
   exports: [
     MatButtonModule, MatCheckboxModule, MatCardModule, MatInputModule, MatProgressBarModule, MatProgressSpinnerModule, MatStepperModule,
-    MatDividerModule, MatIconModule, MatTooltipModule, MatChipsModule, MatAutocompleteModule, MatButtonToggleModule, MatListModule
+    MatDividerModule, MatIconModule, MatTooltipModule, MatChipsModule, MatAutocompleteModule, MatButtonToggleModule, MatListModule,
+    MatExpansionModule
   ],
 })
 export class MaterialModule { }
