@@ -4,7 +4,7 @@ import {ActivatedRoute, Router} from '@angular/router';
 import {GithubJsonService} from '../services/github-json/github-json.service';
 import {SlickComponent} from 'ngx-slick';
 import {COMMA, ENTER} from '@angular/cdk/keycodes';
-import {MatChipInputEvent} from '@angular/material';
+import { MatChipInputEvent } from '@angular/material/chips';
 import {FileSaverService} from 'ngx-filesaver';
 
 @Component({

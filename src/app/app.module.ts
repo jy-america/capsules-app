@@ -38,7 +38,7 @@ import { FileSaverModule } from 'ngx-filesaver';
     AppRoutingModule,
     MaterialModule,
     FlexLayoutModule,
-    SlickModule.forRoot(),
+    // SlickModule.forRoot(),
     MDBBootstrapModule.forRoot(),
     FormsModule,
     ReactiveFormsModule,
